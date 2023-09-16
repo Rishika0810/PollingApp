@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Polling App - User Registration</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--Creating class container-->
+      <div class="Form-box">
+        <!--Creating class Form-box-->
+        <h1>Registration</h1>
+        <form id="registration">
+          <!--Form-->
+
+          <label for="voterName">Name:</label>
+          <!--Name of voter-->
+          <input type="text" id="voterName" required /><br /><br />
+          <label for="Unique ID">Unique ID:</label>
+          <!--Unique ID-->
+          <input
+            type="text"
+            id="UniqueID"
+            required
+            pattern="^[a-zA-Z0-9!@#$%^&*()-_+=<>?]+$"
+            minlength="6"
+            maxlength="6"
+            placeholder="must contain 6 charaters"
+          /><br /><br />
+          <div class="btn-field">
+            <button type="submit">Register</button>
+            <!--Register button-->
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="registration.js"></script>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+/* For all*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/*Container class : Background Image */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(4, 4, 66, 0.733), rgba(0, 0, 50, 0.8)),
+    url("stock-vector-different-people-hold-placards-calling-to-vote-political-election-illustration-1833016393 2.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+/*Form */
+.Form-box {
+  width: 45%;
+  max-width: 350px;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 50px 50px 30px;
+  text-align: left;
+}
+
+/* Styling text*/
+.Form-box h1 {
+  font-size: 45px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 25px;
+  color: #3c00a0;
+  text-align: center;
+  position: relative;
+}
+
+/* Styling Name input*/
+#eventName {
+  background: #eaeaea;
+  margin: 5px 0 -30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+/* Styling Party name input*/
+#position {
+  background: #eaeaea;
+  margin: 5px 0 -30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+/* Styling date input*/
+#eventDate {
+  background: #eaeaea;
+  margin: 5px 0 -30px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+/* Styling candidate name input*/
+#candidates {
+  background: #eaeaea;
+  margin: 5px 0px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 50%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 10px 85px;
+}
+/* Styling button*/
+.btn-field {
+  width: 100%;
+  display: flex;
+  padding: 5px 5px 15px;
+  justify-content: space-between;
+}
+.btn-field button {
+  flex-basis: 48%;
+  background: #3c00a0;
+  color: #fff;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 1s;
+}
+
+/* Styling  voter name input*/
+#voterName {
+  background: #eaeaea;
+  margin: 5px 0 -30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+/* Styling uniqueID input*/
+#UniqueID {
+  background: #eaeaea;
+  margin: 5px 0 -30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#userID {
+  background: #eaeaea;
+  margin: 5px 0 -30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#candidate {
+  background: #eaeaea;
+  margin: 5px 0 -30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+h2{
+    font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+color: #fff;
+position: absolute;
+top: 78%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+
+}
+
+#voteCount{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fff;
+  position: absolute;
+top: 81%;
+left: 46%;
+ 
+
+
+  
+}
+
+  

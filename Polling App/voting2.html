@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Polling App - Voting</title>
+</head>
+<body> 
+    <!--Creating class container--> 
+    <div class="container">  
+    <!--Creating class Formbox-->                                                                      
+    <div class="Form-box">                                                                       
+    <h1>Voting</h1>
+    <!--Form--> 
+    <form id="Form-box">         
+        <!--Unique ID-->                                                                  
+        <label for="userID">Unique ID:</label>                                                   
+        <input type="text" id="userID" required><br><br>
+         <!--Selection of candidates--> 
+        <label for="candidate">Select Candidate:</label>                                          
+        <select id="candidate" required></select><br><br>
+        <div class="btn-field">
+          <!--Submit button-->                                                                                     
+          <button type="submit">Vote</button>  
+       
+        </div>
+    </form>
+    </div>
+    <div class="Vote">
+        <h2>Vote Count</h2>  
+    <div id="voteCount"></div>
+    </div>                                              
+    
+    <script src="votingfinal.js"></script>
+</body>
+</html>

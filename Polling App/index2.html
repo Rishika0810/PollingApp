@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>Polling App</title>
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+
+  <body>
+    <!-- Container to hold the form -->
+    <div class="container">
+       <!-- Form box for event creation -->
+      <div class="Form-box">
+        <h1>Create Event</h1>
+         <!-- Event creation form -->
+        <form id="Form">
+         
+          <label for="eventName">Event Name:</label>
+          <!-- Event Name input -->
+          <input
+            type="text"
+            id="eventName"
+            required
+            placeholder="Event Name"
+          /><br /><br />
+
+          <label for="position">Position:</label>
+          <!-- Position Name input -->
+          <input
+            type="text"
+            id="position"
+            required
+            placeholder="Position"
+          /><br /><br />
+          
+          <label for="eventDate">Event Date:</label>
+          <!-- Event Date input -->
+          <input type="date" id="eventDate" required /><br /><br />
+
+          <label for="candidates">Candidates(comma seperated):</label>
+          <!-- Candidates input -->
+          <input type="text" id="candidates" required /><br /><br />
+
+
+          <div class="btn-field">
+            <!-- Button container -->
+            <button type="submit">Create Event</button>
+         
+        </form>
+        <button onclick="location.href = 'registration2.html';">
+           Registration
+        </button>
+      </div>
+    </div>
+
+      <script src="script.js"></script>
+      <!-- Linking JavaScript -->
+    </div>
+  </body>
+</html>
